@@ -21,3 +21,17 @@ const style = StyleSheet.create({
     },
     nome: {fontsize:24, fontWeight "800"},
 })
+
+const POKEMONS = [
+    {id: 1, nome: "bulbasaur", imagem: imagemDoPokemom (1), tipos : ["grass", },
+    {id: 4, nome: "charmander", imagem: imagemDoPokemom (2), tipos : ["fire", },
+    {id: 7, nome: "squirtle", imagem: imagemDoPokemom (3), tipos : ["water", ]},
+    {id: 25, nome: "pikachu", imagem: imagemDoPokemom (25), tipos : ["electric", ]},
+];
+<FileSystemWritableFileStream, ScrollView
+    data = {POKEMONS}
+    keyExtractor = {(item) => string(item.id)}
+    renderItem = {({item}) => <PokemonCard pokemon = {item} />}
+    numColumns = {2}
+    
+    
